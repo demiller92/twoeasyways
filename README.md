@@ -4,7 +4,7 @@
   - I'm hosting the coding challenge as a React webpage on Github: https://demiller92.github.io/twoeasyways/
   - Alternatively, you can clone and run the code locally from this repository
  
-  ##### Install, build, and run
+##### Install, build, and run
 Requires [npm](https://npmjs.com/) to run.
 
 ```sh
@@ -15,8 +15,6 @@ $ npm start
 ```
 Then, access the local instance at: http://localhost:3000/
 
-
-### Approach
 ##### Planning
   - First I opened the Sketch file, and took note of all the design assets and parameters I would need later. 
   - For example, I wrote down all of the hex values for each asset and text, as well as the font, font-size, margins, and object size.
