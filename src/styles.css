@@ -1,0 +1,125 @@
+@font-face {
+  font-family: SofiaPro;
+  src: url("assets/fonts/SofiaPro/SofiaProBlack.otf");
+}
+
+@font-face {
+  font-family: SofiaProBold;
+  src: url("assets/fonts/SofiaPro/SofiaProBold.otf");
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("assets/fonts/ProximaNova/ProximaNova-Regular.otf");
+}
+
+.App {
+  font-family: SofiaPro;
+}
+
+.page-header {
+  text-align: center;
+  margin: 50px;
+}
+
+.page-title {
+  text-align: center;
+  color: #5700ff;
+  font-size: 36px;
+  margin-bottom: 22px;
+}
+
+.subheading {
+  color: #808080;
+  font-family: ProximaNova;
+  font-size: 17px;
+}
+
+.promo-code {
+  color: #3fc4d2;
+  font-family: SofiaPro;
+  font-size: 15px;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+}
+
+.option-tile {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: -20px;
+  width: 460px;
+  height: 540px;
+  margin: 0px 20px 0px 20px;
+}
+
+.tile-content {
+  margin: 35px;
+}
+
+.tile-image {
+  max-width: 460px;
+  object-fit: fill;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  top: -2px;
+  z-index: -1;
+  left: -2px;
+}
+
+.tile-header {
+  color: #5700ff;
+  font-size: 24px;
+  text-align: left;
+  max-width: 370px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.tile-text {
+  color: #808080;
+  font-size: 13px;
+  font-family: ProximaNova;
+  margin-bottom: 18px;
+  line-height: 22px;
+}
+
+.tile-bottom {
+  display: inline;
+}
+
+.button {
+  width: 140px;
+  height: 48px;
+  text-align: center;
+  border: 2px solid #5700ff;
+  border-radius: 3px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #5700ff;
+  font-family: SofiaProBold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.price {
+  font-size: 24px;
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 21px;
+}
+
+.price .old {
+  color: #3fc4d2;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+
+.price .current {
+  color: #5700ff;
+}

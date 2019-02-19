@@ -1,0 +1,32 @@
+{
+  "heading": {
+    "title": "Two easy ways to get started",
+    "subheading1": "Get free whitening or use promo code",
+    "subheading2": "to get started today.",
+    "promocode": "CODE10"
+  },
+
+  "optiontile": [
+    {
+      "header1": "Get started with a free ",
+      "header2" : "30-minute visit.",
+      "text": "Get a 3D scan at one of our 100+ SmileShops around the country so you can see what your new smile will look like.",
+      "buttontext": "Book a scan",
+      "price": {
+        "old": "$79",
+        "current": "FREE"
+      },
+      "imagealt": "Book a scan."
+    },
+    {
+      "header1": "Make a great first impression ",
+      "header2" : "with our at-home kit.",
+      "text": "Your kit will come with everything you need, and return shipping is always on us. When you're done just drop it in the mail.",
+      "buttontext": "Buy a kit",
+      "price": {
+        "current": "$79"
+      },
+      "imagealt": "Buy a kit."
+    }
+  ]
+}
